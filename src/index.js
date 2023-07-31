@@ -12,8 +12,6 @@ input.addEventListener('input', debounce(onInput, DEBOUNCE_DELAY));
 
 function onInput(element) {
   const inputSearch = element.target.value.trim();
-  // console.log(inputSearch); виводить у консоль те що вводить користувач
-  // наступний код знімає з пошуку країни коли користувач видаляє введені символи
   countryInfo.innerHTML = '';
   countryList.innerHTML = '';
   if (inputSearch === '') {
@@ -65,5 +63,3 @@ function createMakpUp(data) {
     countryInfo.innerHTML = createCountyCard(data);
   }
 }
-
-//the end
