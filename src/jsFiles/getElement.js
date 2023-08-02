@@ -4,4 +4,4 @@ export const getElement = selection => {
       return element;
     }
     throw new Error(`the ${selection} dose not exist`);
-  };
+  }; 

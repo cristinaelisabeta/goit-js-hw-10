@@ -17,4 +17,4 @@ const inputEventHandler = () => {
   }
 };
 
-export default inputEventHandler;
+export default inputEventHandler; 

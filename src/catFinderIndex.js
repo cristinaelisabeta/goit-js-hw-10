@@ -1,8 +1,5 @@
-// imports
 import { getCatsBreeds, fetchCatByBreed } from './jsFiles/catFinder/cat-api.js';
 import { getElement } from './jsFiles/getElement.js';
-
-// variabiles
 
 export const breedSelect = getElement('.breed-select');
 export const loader = getElement('.loader-container');

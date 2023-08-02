@@ -29,4 +29,4 @@ export const displayCountryWithInfo = data => {
       <p class="country-info-text"><span>population:</span>${population}</p>
       <p class="country-info-text"><span>languages:</span>${displayLanguages}</p>`;
   countryInfo.innerHTML = displayCountryInfo;
-};
+}; 

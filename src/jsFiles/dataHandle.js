@@ -22,4 +22,4 @@ const dataHandler = data => {
   }
 };
 
-export default dataHandler;
+export default dataHandler; 
